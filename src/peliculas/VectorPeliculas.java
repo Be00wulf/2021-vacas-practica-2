@@ -29,6 +29,14 @@ public class VectorPeliculas {
         prestarPeliculas(peliNombre, peliID, false);
     }
 
+    public void mostrarPeliculasPrestadas(){
+        System.out.println("\n\n Peliculas prestadas de memorabilia");
+        for (int i = 0; i < (siguienteCodigoP-1); i++) {
+            System.out.println("-"+i+") "+peliprest[i].toString());   
+        }
+        System.out.println("\n\n");
+    }
+    
     //agregar pelis
     public void agregarPeli(String peliNombre, String peliCategoria, int peliAnio, boolean peliDisponibilidad){
         if (siguienteCodigoP > 50){
