@@ -86,7 +86,9 @@ public class Principal {
             if (menu == 9) {
                 tablaPeliculas.agregarPeliculaPrestada();
             }
-            
+            if (menu == 10) {
+                tablaPeliculas.mostrarPeliculasPrestadas();
+            }
 
         }
 
